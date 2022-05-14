@@ -117,7 +117,7 @@ const moveSnake = () => {
       console.log('eat food')
       totalFoodEaten++
       document.getElementById("pointsEarned").innerText = totalFoodEaten
-      snakeLength = snakeLength + 700
+      snakeLength = snakeLength + 50000
       createFood()
     }
 
